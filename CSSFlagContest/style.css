@@ -1,0 +1,388 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 200, 200);
+}
+
+.flag {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 75vmin;
+    height: 50vmin;
+}
+
+.quarter {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+
+.top-left, .bottom-right {
+    background: #eaab01;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.stripe {
+    width: 100%;
+    height: 100%;
+}
+
+.even {
+    background-color: #000000;
+}
+
+.diagonal-mess {
+    overflow: hidden;
+    position: absolute;
+    background-color: aqua;
+    height: 27.9%;
+    width: 120%;
+    transform: rotate(33.69deg) skew(33.69deg);
+    transform-origin: left top;
+    margin-left: 0%;
+    margin-top: calc(-100% / 9);
+}
+
+.one6 {
+    background-color: black;
+    width: 20%;
+    z-index: 10;
+}
+
+.two6 {
+    background-color: #eaab01;
+    width: 40%;
+    z-index: 9;
+}
+
+.three6 {
+    background-color: black;
+    width: 60%;
+    z-index: 8;
+}
+
+.four6 {
+    background-color: #eaab01;
+    width: 80%;
+    z-index: 7;
+}
+
+.five6 {
+    background-color: black;
+    width: 100%;
+    z-index: 6;
+}
+
+.six6 {
+    background-color: #eaab01;
+    width: 120.2%;
+    z-index: 5;
+}
+
+
+.top-right, .bottom-left {
+    background-color: #9d2335;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fourth {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.f1, .f4 {
+    background-color: #ffffff;
+}
+
+.draw {
+    background-color: pink;
+    position: absolute;
+}
+
+.sector1, .sector4 {
+    background-color: #9d2335;
+}
+
+.sector2, .sector3 {
+    background-color: #ffffff;
+}
+
+
+.line11 {
+    width: 8.5%;
+    height: 73.75%;
+    bottom: 0;
+    right: 0;
+}
+
+.line12 {
+    width: 86.065%;
+    height: 12.8%;
+    bottom: 0;
+    right: 0;
+}
+
+.bubble11 {
+    width: 17%;
+    height: 25.5%;
+    bottom: 60.5%;
+    right: -8.5%;
+
+    border-radius: 50%;
+}
+
+.bubble12 {
+    width: 17.07%;
+    height: 25.6%;
+    bottom: -12.8%;
+    right: 77.53%;
+
+    border-radius: 50%;
+}
+
+.crosshor1 {
+    width: 16.84%;
+    height: 25.7%;
+    bottom: 41.3%;
+    right: 0;
+}
+
+.bubhor1 {
+    width: 17.13%;
+    height: 25.7%;
+    bottom: 41.3%;
+    right: 8.27%;
+
+    border-radius: 50%;
+}
+
+.crossver1 {
+    width: 17.03%;
+    height: 25.12%;
+    bottom: 0;
+    right: 61.67%;
+}
+
+.bubver1 {
+    width: 17.03%;
+    height: 25.55%;
+    bottom: 12.35%;
+    right: 61.67%;
+
+    border-radius: 50%;
+}
+
+
+
+
+.line21 {
+    width: 8.5%;
+    height: 73.75%;
+    bottom: 0;
+    left: 0;
+}
+
+.line22 {
+    width: 86.065%;
+    height: 12.8%;
+    bottom: 0;
+    left: 0;
+}
+
+.bubble21 {
+    width: 17%;
+    height: 25.5%;
+    bottom: 60.5%;
+    left: -8.5%;
+
+    border-radius: 50%;
+}
+
+.bubble22 {
+    width: 17.07%;
+    height: 25.6%;
+    bottom: -12.8%;
+    left: 77.53%;
+
+    border-radius: 50%;
+}
+
+.crosshor2 {
+    width: 16.84%;
+    height: 25.7%;
+    bottom: 41.3%;
+    left: 0;
+}
+
+.bubhor2 {
+    width: 17.13%;
+    height: 25.7%;
+    bottom: 41.3%;
+    left: 8.27%;
+
+    border-radius: 50%;
+}
+
+.crossver2 {
+    width: 17.03%;
+    height: 25.12%;
+    bottom: 0;
+    left: 61.67%;
+}
+
+.bubver2 {
+    width: 17.03%;
+    height: 25.55%;
+    bottom: 12.35%;
+    left: 61.67%;
+
+    border-radius: 50%;
+}
+
+
+
+
+
+.line31 {
+    width: 8.5%;
+    height: 73.75%;
+    top: 0;
+    right: 0;
+}
+
+.line32 {
+    width: 86.065%;
+    height: 12.8%;
+    top: 0;
+    right: 0;
+}
+
+.bubble31 {
+    width: 17%;
+    height: 25.5%;
+    top: 60.5%;
+    right: -8.5%;
+
+    border-radius: 50%;
+}
+
+.bubble32 {
+    width: 17.07%;
+    height: 25.6%;
+    top: -12.8%;
+    right: 77.53%;
+
+    border-radius: 50%;
+}
+
+.crosshor3 {
+    width: 16.84%;
+    height: 25.7%;
+    top: 41.3%;
+    right: 0;
+}
+
+.bubhor3 {
+    width: 17.13%;
+    height: 25.7%;
+    top: 41.3%;
+    right: 8.27%;
+
+    border-radius: 50%;
+}
+
+.crossver3 {
+    width: 17.03%;
+    height: 25.12%;
+    top: 0;
+    right: 61.67%;
+}
+
+.bubver3 {
+    width: 17.03%;
+    height: 25.55%;
+    top: 12.35%;
+    right: 61.67%;
+
+    border-radius: 50%;
+}
+
+
+
+.line41 {
+    width: 8.5%;
+    height: 73.75%;
+    top: 0;
+    left: 0;
+}
+
+.line42 {
+    width: 86.065%;
+    height: 12.8%;
+    top: 0;
+    left: 0;
+}
+
+.bubble41 {
+    width: 17%;
+    height: 25.5%;
+    top: 60.5%;
+    left: -8.5%;
+
+    border-radius: 50%;
+}
+
+.bubble42 {
+    width: 17.07%;
+    height: 25.6%;
+    top: -12.8%;
+    left: 77.53%;
+
+    border-radius: 50%;
+}
+
+.crosshor4 {
+    width: 16.84%;
+    height: 25.7%;
+    top: 41.3%;
+    left: 0;
+}
+
+.bubhor4 {
+    width: 17.13%;
+    height: 25.7%;
+    top: 41.3%;
+    left: 8.27%;
+
+    border-radius: 50%;
+}
+
+.crossver4 {
+    width: 17.03%;
+    height: 25.12%;
+    top: 0;
+    left: 61.67%;
+}
+
+.bubver4 {
+    width: 17.03%;
+    height: 25.55%;
+    top: 12.35%;
+    left: 61.67%;
+
+    border-radius: 50%;
+}
